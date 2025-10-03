@@ -38,20 +38,6 @@ Extensibilidad: Se puede agregar fácilmente nuevos tipos de scoring o fuentes d
 
 Containerización: Todo el proyecto corre dentro de Docker, asegurando consistencia entre entornos de desarrollo y producción.
 
-Bonus implementado
-
-Se creó un dashboard web simple con FastAPI + Jinja2 que permite:
-
-Consultar el scoring de cualquier usuario.
-
-Filtrar alertas por tipo, severidad o rango de fechas.
-
-Visualizar estadísticas de alertas (por fuente, severidad y cantidad de usuarios afectados).
-
-Esto provee al equipo de ciberinteligencia un resumen rápido y visual del estado de exposiciones sin necesidad de acceder directamente a la base de datos.
-
-En resumen, el proyecto entrega un flujo completo de ingestión, almacenamiento y scoring de alertas, listo para ser usado por un equipo de ciberinteligencia, con enfoque en robustez, facilidad de despliegue y potencial de crecimiento.
-
 ## 🛠️ Requisitos previos
 
 - [Docker](https://docs.docker.com/get-docker/) instalado en tu máquina  
