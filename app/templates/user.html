@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalle Usuario</title>
+</head>
+<body>
+    <h1>Usuario: {{ email }}</h1>
+    <h2>Scoring: {{ score }}/10</h2>
+    <h3>Alertas:</h3>
+    <ul>
+    {% for alert in alerts %}
+        <li>ID: {{ alert['id'] }} - Fuente: {{ alert['source_info']['source'] }} - Severidad: {{ alert['source_info'].get('severity', '-') }}</li>
+    {% endfor %}
+    </ul>
+    <a href="/">Volver</a>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard de Scoring</title>
+</head>
+<body>
+    <h1>Dashboard de Usuarios</h1>
+    <ul>
+    {% for user in users %}
+        <li><a href="/user/{{ user }}">{{ user }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
