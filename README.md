@@ -82,7 +82,7 @@ En resumen, el proyecto entrega un flujo completo de ingestión, almacenamiento 
 ## 🌍 Probar la API
 
 Documentación Swagger UI:
-http://localhost:8000/docs
+http://localhost:9001/docs
 
 ## Bonus:
 - Middleware que loggea requests y responses
